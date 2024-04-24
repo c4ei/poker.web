@@ -10,7 +10,7 @@ startWebSocket();
 
 // Instantiate webSocket
 function startWebSocket() {
-  webSocket = new WebSocket('wss://pokerpocket.nitramite.com:8001');
+  webSocket = new WebSocket('wss://poker.c4ex.net');
   // WebSocket events
   webSocket.onopen = function (event) {
   };

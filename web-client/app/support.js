@@ -5,7 +5,7 @@ function verifyBrowserSupport() {
   if (verifyAsyncSupport) {
     return true;
   } else {
-    window.location.replace("http://nitramite.com");
+    window.location.replace("http://c4ei.net");
     return false;
   }
 }

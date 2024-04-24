@@ -8,7 +8,7 @@ startWebSocket();
 
 // Instantiate webSocket
 function startWebSocket() {
-  webSocket = new WebSocket("ws://pokerpocket.nitramite.com:8002");
+  webSocket = new WebSocket("ws://pkapi.c4ex.net");
   webSocket.onopen = function (event) {
   };
   webSocket.onmessage = function (event) {

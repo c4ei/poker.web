@@ -131,7 +131,7 @@ async function reloadDelay() {
 
 
 function forgotPasswordBtn() {
-  window.location.href = 'http://www.nitramite.com/contact.html';
+  window.location.href = 'http://poker.c4ex.net/contact.html';
 }
 
 // ------------------------------------------------------------------------------

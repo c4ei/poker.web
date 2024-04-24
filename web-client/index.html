@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--
-    ██████╗  ██████╗ ██╗  ██╗███████╗██████╗     ██████╗  ██████╗  ██████╗██╗  ██╗███████╗████████╗
-    ██╔══██╗██╔═══██╗██║ ██╔╝██╔════╝██╔══██╗    ██╔══██╗██╔═══██╗██╔════╝██║ ██╔╝██╔════╝╚══██╔══╝
-    ██████╔╝██║   ██║█████╔╝ █████╗  ██████╔╝    ██████╔╝██║   ██║██║     █████╔╝ █████╗     ██║
-    ██╔═══╝ ██║   ██║██╔═██╗ ██╔══╝  ██╔══██╗    ██╔═══╝ ██║   ██║██║     ██╔═██╗ ██╔══╝     ██║
-    ██║     ╚██████╔╝██║  ██╗███████╗██║  ██║    ██║     ╚██████╔╝╚██████╗██║  ██╗███████╗   ██║
-    ╚═╝      ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝    ╚═╝      ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝   ╚═╝
-    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://pokerpocket.nitramite.com/assets/images/logo.png">
-    <title>Poker Pocket Texas Hold'em</title>
+    <link rel="icon" href="https://poker.c4ex.net/assets/images/logo.png">
+    <title>AAH Texas Hold'em</title>
 
-    <meta name="description" content="Poker Pocket android application's Texas Hold'em online web client where you can play texas holdem in same rooms as in android version.">
+    <meta name="description" content="AAH android application's Texas Hold'em online web client where you can play texas holdem in same rooms as in android version.">
     <meta name="author" content="Martin Kankaanranta">
 
     <!-- Style sheets -->
@@ -35,7 +27,7 @@
 
 <!-- Navigation bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="http://www.nitramite.com/poker-pocket.html"><img src="./assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Poker Pocket logo">Poker Pocket</a>
+    <a class="navbar-brand" href="http://poker.c4ex.net/poker-pocket.html"><img src="./assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="AAH Poker logo">AAH Poker</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -60,7 +52,7 @@
             </li>
             <li>
                 <div style="margin-right: 5px;">
-                    <img style="width: 40px; height: 40px;" src="./assets/images/logo_circle.png" alt="Poker Pocket circle logo">
+                    <img style="width: 40px; height: 40px;" src="./assets/images/logo_circle.png" alt="AAH Poker circle logo">
                 </div>
             </li>
         </ul>
@@ -91,10 +83,10 @@
             </div>
             <div class="modal-body">
                 <div style="color: white">
-                    Poker Pocket is beta level under development project which goal is to become super simple and just play without messing around poker game.<br><br>
-                    Poker Pocket will never include content like half naked women or other content similar like that. It also wont pressure you to make you spent real money on coins whats so ever.<br><br>
+                    AAH Poker is beta level under development project which goal is to become super simple and just play without messing around poker game.<br><br>
+                    AAH Poker will never include content like half naked women or other content similar like that. It also wont pressure you to make you spent real money on coins whats so ever.<br><br>
                     Slow progress comes from facts that I do this alone, except table and card graphics. <br><br>
-                    Poker Pocket is available for Android which has more game modes and Online Hold'em web browser version which is this. Both android and web browser online Hold'em games communicates with same server so having own account and playing with friends is possible. <br><br>
+                    AAH Poker is available for Android which has more game modes and Online Hold'em web browser version which is this. Both android and web browser online Hold'em games communicates with same server so having own account and playing with friends is possible. <br><br>
                     Shuffling cards is based on cryptography level "secure random" algorithm.<br><br>
                     Web version does not have ads since most of the people use ad blocker's. If you want to support, play more using Android app.<br><br>
                     Thank you!
@@ -114,7 +106,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header" align="center">
-                <img class="img-circle" id="img_logo" src="./assets/images/logo.png" alt="Poker Pocket logo">
+                <img class="img-circle" id="img_logo" src="./assets/images/logo.png" alt="AAH Poker logo">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -124,7 +116,7 @@
                 <form id="login-form">
                     <div class="modal-body">
                         <div id="div-login-msg" style="margin-left: 2px;">
-                            <span id="text-login-msg">Give your Poker Pocket account username and password.</span>
+                            <span id="text-login-msg">Give your AAH Poker account username and password.</span>
                         </div>
                         <input id="login_username" class="form-control" type="text" placeholder="Username" required style="margin-top: 5px;">
                         <input id="login_password" class="form-control" type="password" placeholder="Password" required style="margin-top: 5px;">
@@ -144,7 +136,7 @@
                 <form id="register-form" style="display:none;">
                     <div class="modal-body">
                         <div id="div-register-msg" style="margin-left: 2px;">
-                            <span id="text-register-msg">Register Poker Pocket account.</span>
+                            <span id="text-register-msg">Register AAH Poker account.</span>
                         </div>
                         <input id="register_username" class="form-control" type="text" placeholder="Username" required style="margin-top: 5px;">
                         <input id="register_password" class="form-control" type="password" placeholder="Password" required style="margin-top: 5px;">
@@ -695,8 +687,8 @@
             <div class="col-4">
                 <footer class="footer">
                     <div style="color: #FFFFFF;">♣ ♦ ♥ ♠</div>
-                    <div style="color: #FFFFFF">&copy; Nitramite 2017 - MK</div>
-                    <div style="color: #FFFFFF">Graphics Raphael Ciribelly</div>
+                    <!-- <div style="color: #FFFFFF">&copy; Nitramite 2017 - MK</div>
+                    <div style="color: #FFFFFF">Graphics Raphael Ciribelly</div> -->
                 </footer>
             </div>
             <div class="col" style="margin-top: 10px">
@@ -729,9 +721,9 @@
             </div>
             <div class="col-3" style="margin-top: 20px">
                 <div class="row">
-                    <a href="https://play.google.com/store/apps/details?id=com.nitramite.pokerpocket">
-                        <img class="playBadge" src="./assets/images/badge_play.png" alt="Poker Pocket on Google Play">
-                    </a>
+                    <!-- <a href="https://play.google.com/store/apps/details?id=com.nitramite.pokerpocket">
+                        <img class="playBadge" src="./assets/images/badge_play.png" alt="AAH Poker on Google Play">
+                    </a> -->
                 </div>
             </div>
         </div>
